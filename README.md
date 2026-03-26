@@ -101,7 +101,7 @@ jupyter lab
 
 ```bash
 # 启动后端
-cd tino-chen-HelloClaw
+cd hello-claw
 pip install uvicorn
 uvicorn src.main:app --reload --port 8000
 
@@ -150,7 +150,7 @@ asyncio.run(chat_stream())
 ## 项目结构
 
 ```
-tino-chen-HelloClaw/
+hello-claw/
 ├── README.md              # 项目说明文档
 ├── requirements.txt       # Python 依赖列表
 ├── main.ipynb            # 主要的 Jupyter Notebook（快速演示）
